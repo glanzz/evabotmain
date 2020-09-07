@@ -1,0 +1,86 @@
+.home-page{
+  display: flex;
+  align-items: center;
+  background-color: black;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+}
+
+.home-header{
+  font-size: 30px;
+}
+
+.dashboard-page{
+  display: grid;
+  width: 100vw;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.dashboard-item{
+  border: 2px solid white;
+  height: 35vw;
+  background: green;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard-icon {
+  font-size: 75px;
+}
+
+.dashboard-text{
+  font-size: 30px;
+}
+.search-page{
+  width: 80%;
+  margin: auto;
+  text-align:center;
+}
+.search-box{
+  margin: 10px;
+}
+.search-list{
+  height: 80vh;
+  overflow-y: scroll;
+  margin: 20px auto;
+  border: 4px solid black;
+  border-radius: 5px;
+}
+
+.search-head{
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px;
+  color: white;
+  font-weight: bold;
+}
+
+.student-item{
+  padding: 4px;
+  border: 1px solid gainsboro;
+  margin: 2px;
+  background-color: #fefefe;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-text{
+  display: flex;
+  
+}
+
+.qa-item{
+  width: 48%;
+}
